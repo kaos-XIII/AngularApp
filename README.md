@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+-------------------------------------
+
+Primero crear el archivo "proxy.conf.js" en la carpeta "src"
+
+Comando usados:
+
+ng add @angular/material
+
+npm i -g json-server
+
+-------
+
+Para crearlo todo Angular y ASP.NET por comandos.
+
+ng new my-app
+dotnet new angular -o my-app
+ng serve
+dotnet run
