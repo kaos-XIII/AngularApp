@@ -29,6 +29,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 -------------------------------------
 
+--- Errores al instalar, problemas con credenciales.
+    npm config rm proxy
+    npm config rm https-proxy
+    npm config set registry http://registry.npmjs.org/
+---
+
+
 Primero crear el archivo "proxy.conf.js" en la carpeta "src"
 
 Comando usados:
