@@ -44,7 +44,13 @@ ng add @angular/material
 
 npm i -g json-server
 
-Crear componente: ng g c "carpeta/nombreComponente"
+Crear componente: ng g c carpeta/nombreComponente
+
+Crear modulo: ng g m pages/products -m=app --route products 
+
+Ejecutar:
+ng serve
+serverAPI: -> json-server --watch Server/db.json --port 3000
 
 -------
 
