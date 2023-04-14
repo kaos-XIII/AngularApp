@@ -37,6 +37,8 @@ ng add @angular/material
 
 npm i -g json-server
 
+Crear componente: ng g c "carpeta/nombreComponente"
+
 -------
 
 Para crearlo todo Angular y ASP.NET por comandos.
