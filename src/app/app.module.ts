@@ -14,6 +14,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { MaterialModule } from './material.module';
 
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { MaterialModule } from './material.module';
     MatSidenavModule,
     MatListModule,
     MatIconModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],  // Se inyectan las dependencias y servicios.
   bootstrap: [AppComponent], // Indicar cual es el componente principal.

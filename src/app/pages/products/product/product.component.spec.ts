@@ -2,12 +2,15 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ProductComponent } from './product.component';
 
-describe('ProductComponent', () => {
+describe('ProductComponent', () =>
+{
   let component: ProductComponent;
   let fixture: ComponentFixture<ProductComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach(async () =>
+  {
+    await TestBed.configureTestingModule(
+    {
       declarations: [ ProductComponent ]
     })
     .compileComponents();
@@ -17,7 +20,8 @@ describe('ProductComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create', () =>
+  {
     expect(component).toBeTruthy();
   });
 });
