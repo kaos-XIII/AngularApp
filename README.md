@@ -29,6 +29,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 -------------------------------------
 
+Video Tutorial: https://www.youtube.com/watch?v=i-oYrcNtc2s
+
 --- Errores al instalar, problemas con credenciales.
     npm config rm proxy
     npm config rm https-proxy
